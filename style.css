@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Style+Script&display=swap');
+
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+}
+
+.nav-title{
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    opacity: 0.96;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.nav-title> :first-child{
+    font-weight: 900;
+    font-family: 'Single Day', cursive;
+    font-size: 10rem;
+}
+.nav-title> :nth-child(2){
+    width: 80%;
+    font-size: 0.9rem;
+    margin-top: 15px;
+}
+
+/** nav-bar **/
+.nav-bar{
+    margin-top: 12px;
+    background-image: url("bg1.jpg");
+    background-size: cover;
+    height: 30px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-bar a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid transparent;
+}
+
+.nav-bar a:hover{
+    border: 1px solid white;
+}
+
+/**mission**/
+h2{
+    color: #61219d;
+    font-size: 3rem;
+    
+    margin-left: 151px;
+}
+
+/* .mission{
+    width: 80%;
+    display: flex;
+}
+
+.mission-comp{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.mission-comp i{
+    font-size: 10rem;
+} */
+
+
+.missions{
+    margin-top: 40px;
+}
+
+.mission1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+.mission-comp1{
+    height: 100px;
+    width: 80%;
+}
+.mission-comp1 i{
+    font-size: 5rem;
+}
+
+.mission-cont1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p{
+    font-size: 1rem;
+    color: rgb(78, 18, 135);
+}
+
+
+/** featurres **/
+.box1{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #c7abe8;
+    flex-wrap: wrap;
+}
+
+.box{
+    height: 150px;
+    width: 37%;
+    /* border: 2px solid black; */
+    padding: 20px 0px 15px;
+    margin-top: 15px;
+}
+
+.box-info{
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+h3{
+    color: white;
+    font-size: 2rem;
+}
+
+.box-info p{
+    color: rgb(65, 17, 101);
+}
+
+.box-info img{
+    border-radius: 15px;
+}
+
+/** news **/
+.news{
+    background-image: url("bg1.jpg");
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: white;
+}
+
+input{
+    border: none;
+    padding: 2px;
+    margin-left: 5px;
+}
+button{
+    border: 1px solid white;
+    padding: 2px;
+    margin-left: 5px;
+    background-color: #61219d;
+    color: aliceblue;
+}
+
+/** end**/
+.end-tag{
+    font-family: 'Style Script', cursive;
+    font-size: 4rem;
+    color: #61219d;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.contact-form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.contact-tain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.con{
+    border: 1px solid #61219d;
+    border-radius: 5px;
+}
+.divi{
+    margin: 20px;
+}
+
+.footer1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+.footerin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #61219d;
+    width: 80%;
+    height: 100px;
+    border-radius: 7px;
+}
+h4{
+    padding: 20px;
+    color: white;
+    font-size: 1.2rem;
+
+}
+
+.panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 0.85rem;
+}
